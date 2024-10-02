@@ -8,14 +8,19 @@ El buen funcionamiento de un gobierno se basa del trabajo en conjunto de todos s
 ## Objetivos
 
 ### Evaluar la eficiencia del manejo de las obras publicas del estado
+A través de los datos utilizados podremos conseguir informacion sobre que tan eficiente ha sido el estado teniendo en cuenta las empresas que ofrecieron sus servicios a realizar esta obra.
 
 ### Crear un sistema de calculo el cual pueda ofrecer un porcentaje de exito de una obra segun datos anteriores
+Al momento de medir el porcentaje de exito de una obra, se tratara de predecir gracias a los casos anteriores con similares caracteristicas a la obra que se tratara de medir teniendo encuenta por ejemplo: lugar, fecha, las posibles ofertas de empresas constructoras teniendo en cuenta su especialidad, etc. 
 
 ### Analizar los casos en los cuales el estado ha hecho un mal manejo de los recursos y averiguar los motivos
+En caso de que haya caso con baja eficiencia trataremos de descubrir los factores que hayan podido afectar a la eficiencia de esta obra.
 
 ### Realizar una critica constructiva al sistema de obras publicas
+Gracias a los análisis hechos podremos calificar como la eleccion del sistemas de obras publicas, en base a las empresas.
 
 ### Hacer publico nuestro proyecto para el publico general
+Realizaremos que este sistema pueda ser utilizado para otras personas que quieran revisar de manera mas facil.
 
 ## Datos
 
