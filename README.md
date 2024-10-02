@@ -9,6 +9,6 @@ El buen funcionamiento de un gobierno se basa del trabajo en conjunto de todos s
 
 ## Datos
 
-## Preguntas de investivación 
+## Preguntas de investigación 
 
 ## Diseño Tentativo
