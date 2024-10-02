@@ -22,19 +22,26 @@ El buen funcionamiento de un gobierno se basa del trabajo en conjunto de todos s
 ### Características: Variables:
 
 1- Nombre del proyecto: (Nombre de la obra pública)
+
 2- Fecha de inicio: (Fecha en que comenzó la obra)
+
 3- Fecha estimada de finalización: (fecha proyectada para la finalización)
+
 4- Fecha real de finalización: (Fecha en que realmente se completó la obra)
+
 5- Presupuesto estimado: (Monto inicial destinado al proyecto)
+
 6- Costo final: (Costo real del proyecto al finalizar)
+
 8- Región: (Ubicado del proyecto)
+
 9- Tipo de proyecto (infraestructura, edificación pública, etc.)
 
 ### Formato:
 Los archivos CSV son formatos de texto plano en los que los datos están estructurados en filas y columnas. Cada fila representa un proyecto, y cada columna es una variable que describe una característica de ese proyecto
 
 ### Volumen:
-Dado que trabajaremos en un periodo de 5 años (2018-2023) y muchos proyectos de obras públicas, el volumen de los datos puede ser significativo.
+Dado que trabajaremos en un periodo de 5 años (2018-2023) y muchos proyectos de obras públicas, el volumen de los datos puede ser significativo. En este caso, el tamaño de todos los archivos (ubicados en la carpeta "data") es de 165MB
 
 ### Origen:
 Los datos provienen de datos. Gob.cl, una plataforma de datos abiertos del gobierno chileno, lo que garantiza que son públicos y accesibles para su análisis.
