@@ -75,3 +75,35 @@ Los archivos CSV fueron descargados de manera manual desde la plataforma de dato
 ### ¿Que empresa fue mas contratada por el ministerio?
 
 ## Diseño Tentativo
+Para llevar a cabo un análisis integral de los proyectos de construcción pública en Chile (2018-2023), se emplearán diferentes métodos computacionales y estadísticos. A continuación, se detalla brevemente la propuesta:
+
+1. Limpieza y preparación de datos:
+Objetivo: Detectar y manejar valores faltantes, duplicados o erróneos (e.g., fechas inconsistentes o presupuestos incompletos). Formatear las fechas y convertir las variables numéricas a sus tipos correspondientes.
+Método:
+Imputación de valores faltantes en caso de ser necesario (media, mediana).
+Filtrado de registros incompletos o atípicos.
+2. Análisis exploratorio de datos (EDA):
+Objetivo: Visualizar las distribuciones de las variables clave (tiempos de ejecución, presupuestos, tipos de proyectos) y detectar patrones iniciales.
+Método:
+Histogramas para distribución de costos y tiempos.
+Boxplots para identificar outliers.
+Gráficos de barras para proyectos más frecuentes por tipo y región.
+Mapas de calor para analizar correlaciones entre las variables (e.g., presupuesto y tiempo de finalización).
+3. Análisis estadístico:
+Objetivo: Evaluar si existen diferencias significativas entre distintos grupos de proyectos en cuanto a su duración, costo y atrasos.
+Método:
+Pruebas de hipótesis para comparar medias entre diferentes tipos de proyectos (e.g., t-test o ANOVA).
+Regresión lineal simple o múltiple para modelar la relación entre costos y tiempo de finalización o entre el tipo de proyecto y los atrasos.
+4. Evaluación de atrasos y sobrecostos:
+Objetivo: Calcular el porcentaje de proyectos que sufren atrasos y sobrecostos.
+Método:
+Comparar fechas reales de finalización vs. fechas estimadas.
+Calcular el porcentaje de desviación en los presupuestos (sobre/infraejecución).
+5. Visualización de resultados:
+Objetivo: Crear visualizaciones interactivas y gráficas que resuman el análisis para facilitar la comprensión y comunicación de los resultados.
+Método:
+Gráficos interactivos para visualizar el progreso de los proyectos a lo largo del tiempo y su distribución geográfica.
+Dashboards que muestren los proyectos con mayores atrasos y sobrecostos.
+Este enfoque integral te permitirá identificar los proyectos más problemáticos y explorar las causas subyacentes de los retrasos y sobrecostos.
+
+
