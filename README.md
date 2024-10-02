@@ -51,4 +51,22 @@ Los archivos CSV fueron descargados de manera manual desde la plataforma de dato
 
 ## Preguntas de investigación 
 
+### ¿Cual es el porcentaje de atraso de las obras publicas? 
+
+### ¿Que tipo de obras tarda mas en realizarse?
+
+### ¿Que tipo de obra es mas cara?
+
+### ¿Que empresa fue mas contratada por el ministerio?
+
+### ¿Cual es el porcentaje de atraso de las obras publicas?
+
+### ¿Que tipo de obras tarda mas en realizarse?
+
+### ¿Que tipo de obra es mas cara?
+
+### ¿Cuál es la variación de presupuesto en obras públicas según el año?
+
+### ¿Que empresa fue mas contratada por el ministerio?
+
 ## Diseño Tentativo
