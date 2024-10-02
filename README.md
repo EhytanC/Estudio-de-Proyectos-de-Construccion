@@ -24,7 +24,31 @@ Realizaremos que este sistema pueda ser utilizado para otras personas que quiera
 
 ## Datos
 
-### Características: Variables:
+### Archivos:
+
+1. 2018-sociedades-por-fecha-rut-constitucion-v2
+
+2. 2019-sociedades-por-fecha-rut-constitucion-v3
+
+3. 2020-sociedades-por-fecha-rut-constitucion
+
+4. 2021-sociedades-por-fecha-rut-constitucion
+
+5. 2022-sociedades-por-fecha-rut-constitucion
+
+6. 2023-sociedades-por-fecha-rut-constitucion
+
+7. contratos
+
+8. ofertas
+
+9. pagos
+
+10. proyectos
+
+11. requisitos
+
+### Variables:
 
 1. Nombre del proyecto: (Nombre de la obra pública)
 
