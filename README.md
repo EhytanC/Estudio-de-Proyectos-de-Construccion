@@ -19,28 +19,28 @@ El buen funcionamiento de un gobierno se basa del trabajo en conjunto de todos s
 
 ## Datos
 
-### Caracteristicas:
-Variables:
-1- Nombre del proyecto: (Nombre de la obra publica)
-2- Fecha de inicio: (Fecha en que comenzo la obra)
-3- Fecha estimada de finalizacion: (Fecha proyectada para la finalizacion)
-4- Fecha real de finalizacion: (Fecha en que realmente se completo la obra)
+### Características: Variables:
+
+1- Nombre del proyecto: (Nombre de la obra pública)
+2- Fecha de inicio: (Fecha en que comenzó la obra)
+3- Fecha estimada de finalización: (fecha proyectada para la finalización)
+4- Fecha real de finalización: (Fecha en que realmente se completó la obra)
 5- Presupuesto estimado: (Monto inicial destinado al proyecto)
-6- Costo Final: (Costo real del proyecto al finalizar)
-8- Region: (Ubicacion del proyecto)
-9- Tipo de proyecto (infraestructura, edificacion publica, etc.)
+6- Costo final: (Costo real del proyecto al finalizar)
+8- Región: (Ubicado del proyecto)
+9- Tipo de proyecto (infraestructura, edificación pública, etc.)
 
 ### Formato:
-Los archivos CSV son formatos de texto plano en los que los datos estan estructurados en filas y columnas. Cada fila representa un proyecto, y cada columna es una variable que describe una caracteristica de ese proyecto
+Los archivos CSV son formatos de texto plano en los que los datos están estructurados en filas y columnas. Cada fila representa un proyecto, y cada columna es una variable que describe una característica de ese proyecto
 
 ### Volumen:
-Dado que trabajaremos en un periodo de 5 años (2018-2023) y muchos proyectos de obras publicas, el volumen de los datos puede ser significativo.
+Dado que trabajaremos en un periodo de 5 años (2018-2023) y muchos proyectos de obras públicas, el volumen de los datos puede ser significativo.
 
 ### Origen:
-Los datos provienen de datos.gob.cl, una plataforma de datos abiertos del gobierno chileno, lo que garantiza que son publicos y accesibles para su anilisis.
+Los datos provienen de datos. Gob.cl, una plataforma de datos abiertos del gobierno chileno, lo que garantiza que son públicos y accesibles para su análisis.
 
-### Forma de recoleccion:
-Los archivos CSV fueron descargados de manera manual desde la plataforma de datos.gob.cl
+### Forma de recolección:
+Los archivos CSV fueron descargados de manera manual desde la plataforma de datos. Gob.cl
 
 ## Preguntas de investigación 
 
