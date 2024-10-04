@@ -90,9 +90,7 @@ Los archivos CSV fueron descargados de manera manual desde la plataforma de dato
 
 - ¿Cual es el porcentaje de atraso de las obras publicas?
 
-- ¿Cuál es la variación de presupuesto en obras públicas según el año?
-
-- ¿Que empresa fue mas contratada por el ministerio?
+- ¿Como varia el presupuesto de las obras públicas según el año?
 
 ## Diseño Tentativo
 Para llevar a cabo un análisis integral de los proyectos de construcción pública en Chile (2018-2023), se emplearán diferentes métodos computacionales y estadísticos. A continuación, se detalla brevemente la propuesta:
