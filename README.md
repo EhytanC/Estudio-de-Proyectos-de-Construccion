@@ -86,11 +86,9 @@ Los archivos CSV fueron descargados de manera manual desde la plataforma de dato
 
 - ¿Qué tipo de obra es mas cara?
 
-- ¿Qué empresa fue mas contratada por el ministerio?
-
-- ¿Cuál es el porcentaje de atraso de las obras publicas?
-
 - ¿Como varia el presupuesto de las obras públicas según el año?
+
+- ¿Qué empresa fue mas contratada por el ministerio?
 
 ## Diseño Tentativo
 Para llevar a cabo un análisis integral de los proyectos de construcción pública en Chile (2018-2023), se emplearán diferentes métodos computacionales y estadísticos. A continuación, se detalla brevemente la propuesta:
