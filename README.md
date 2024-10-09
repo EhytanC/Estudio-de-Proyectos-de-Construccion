@@ -73,7 +73,7 @@ Los archivos CSV son formatos de texto plano en los que los datos están estruct
 Dado que trabajaremos en un periodo de 5 años (2018-2023) y muchos proyectos de obras públicas, el volumen de los datos puede ser significativo. En este caso, el tamaño de todos los archivos (ubicados en la carpeta "data") es de 165MB
 
 ### Origen:
-Los datos provienen de datos. Gob.cl, una plataforma de datos abiertos del gobierno chileno, lo que garantiza que son públicos y accesibles para su análisis.
+Los datos provienen de datos.gob.cl, una plataforma de datos abiertos del gobierno chileno, lo que garantiza que son públicos y accesibles para su análisis.
 
 ### Forma de recolección:
 Los archivos CSV fueron descargados de manera manual desde la plataforma de datos. Gob.cl
