@@ -47,3 +47,23 @@ posibles_categoricos = ('NOMBRE_TIPOREGISTRO', 'CODIGO_ESPECIALIDAD', 'CODIGO_CA
                         'NOMBRE_CATEGORIA')
 for i in posibles_categoricos:
     requisitos_df[i] = requisitos_df[i].astype('category')
+
+# Creacion de sociedades_df
+sociedades_df = reduce(lambda x,y: pd.concat((x,y)),
+                       map(lambda x: pd.read_csv(os.path.join('data', x), sep=';'),
+                           filter(lambda x: '20' in x, os.listdir('data'))
+                           )
+                       )
+
+posibles_categoricos = ('Anio', 'Mes', 'Region Tributaria', 'Codigo de sociedad', 'Tipo de actuacion', 'Region Social')
+for i in posibles_categoricos:
+    sociedades_df[i].astype('category')
+
+# Creacion de ofertas_df
+ofertas_df = pd.read_csv(os.path.join('data', 'ofertas.csv'))
+posibles_categoricos = ('NUM_OFERTA', 'CONDICION_OFERTA')
+
+for i in posibles_categoricos:
+    ofertas_df[i] = ofertas_df[i].astype('category')
+
+ofertas_df['MONTO_OFERTA'] = ofertas_df['MONTO_OFERTA'].astype('int64')
