@@ -24,6 +24,9 @@ contratos_df['FECHATERMINO'] = pd.to_datetime(contratos_df['FECHATERMINO'], form
 contratos_df['FECHATERMINOORIGINAL'] = pd.to_datetime(contratos_df['FECHATERMINOORIGINAL'],
                                                       format="%d/%m/%Y", errors='coerce')
 
+# Nueva fila para filtrar las sociedades
+contratos_df['MERGERUT'] = contratos_df['RUTADJUDICADO'].astype('str')
+
 # Creacion de pagos_df
 pagos_df = pd.read_csv(os.path.join('data', 'pagos.csv'))
 
@@ -67,3 +70,5 @@ for i in posibles_categoricos:
     ofertas_df[i] = ofertas_df[i].astype('category')
 
 ofertas_df['MONTO_OFERTA'] = ofertas_df['MONTO_OFERTA'].astype('int64')
+
+sociedades_con_contrato_df = sociedades_df[sociedades_df['MERGERUT'].isin(contratos_df['MERGERUT'])]
