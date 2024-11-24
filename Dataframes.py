@@ -62,6 +62,8 @@ posibles_categoricos = ('Anio', 'Mes', 'Region Tributaria', 'Codigo de sociedad'
 for i in posibles_categoricos:
     sociedades_df[i].astype('category')
 
+sociedades_df['MERGERUT'] = sociedades_df['RUT'].str.slice(stop=-2)
+
 # Creacion de ofertas_df
 ofertas_df = pd.read_csv(os.path.join('data', 'ofertas.csv'))
 posibles_categoricos = ('NUM_OFERTA', 'CONDICION_OFERTA')
