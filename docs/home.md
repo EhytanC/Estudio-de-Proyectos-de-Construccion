@@ -1,3 +1,0 @@
-## Proyecto data science
-
-# a
