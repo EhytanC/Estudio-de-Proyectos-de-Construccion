@@ -46,9 +46,8 @@ que se han retrasado por lo menos un mes es de el 33.3% respecto al total y en t
 en cambio los contratos que se demoraron menos de un mes en finalizarse son un 66.7% con una cantidad
 10159 contratos. Vease la Imagen 1.
 
-![Fuente: Autores](graficoproyectosatrasdosdif1mes.png)
-
-Imagen 1. Fuente: Autores
+![Imagen 1](graficoproyectosatrasdosdif1mes.png)
+Imagen 1. Fuente: Autores.
 
 Por otra parte tomando como base las obras con contratos terminados tienen una duracion en promedio:
 
@@ -56,21 +55,26 @@ Ordenadas de manera desendiente
 
 1. Vialidad, duran aproximadamente un año
 
-2. Aeropuertos, que duran aproximadamente un año
+2. Aeropuertos, duran aproximadamente 249 dias
 
-3. Obras Portuarias, que duran aproximadamente un año
+3. Obras Portuarias, duran aproximadamente un año
 
-4. SSSR, que duran aproximadamente un año
+4. SSSR, duran aproximadamente un año
 
-5. Obras hidraulicas, que duran aproximadamente un año
+5. Obras hidraulicas, duran aproximadamente un año
 
-6. Arquitectura, que duran aproximadamente un año
+6. Arquitectura, duran aproximadamente un año
 
-7. D. G. O. P., que duran aproximadamente un año
+7. D. G. O. P., duran aproximadamente un año
 
 8. I. N. Hidraulica, No hay informacion
 
-![A](GraficoDuracion.png)
+Para determinar estos valores se filtraron todos los valores  
+
+![Imagen 2](GraficoDuracion.png)
+Imagen 2, Fuente: Autores.
+
+A su ves, hemos
 
 ## Conclusion
 
@@ -88,4 +92,3 @@ Ordenadas de manera desendiente
 5. [Dataset pagos de obra publica](https://datos.gob.cl/dataset/requisitos-de-contratistas-por-contratos-de-obra-publica-st-31)
 
 6. [Dataset sociedades y empresas](https://datos.gob.cl/dataset/registro-de-empresas-y-sociedades)
-***
