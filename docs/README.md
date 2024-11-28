@@ -50,7 +50,27 @@ en cambio los contratos que se demoraron menos de un mes en finalizarse son un 6
 
 Imagen 1. Fuente: Autores
 
+Por otra parte tomando como base las obras con contratos terminados tienen una duracion en promedio:
 
+Ordenadas de manera desendiente
+
+1. Vialidad, duran aproximadamente un año
+
+2. Aeropuertos, que duran aproximadamente un año
+
+3. Obras Portuarias, que duran aproximadamente un año
+
+4. SSSR, que duran aproximadamente un año
+
+5. Obras hidraulicas, que duran aproximadamente un año
+
+6. Arquitectura, que duran aproximadamente un año
+
+7. D. G. O. P., que duran aproximadamente un año
+
+8. I. N. Hidraulica, No hay informacion
+
+![A](GraficoDuracion.png)
 
 ## Conclusion
 
