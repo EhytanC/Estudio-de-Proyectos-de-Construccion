@@ -1,5 +1,4 @@
 # Estudio de Proyectos de Construcción publica en Chile (2018-2023): Un Análisis Integral
-***
 ## Introduccion
 
 En toda nacion el manejo las obras publicas son una parte escencial del pais, ya que estan financiadas por la
@@ -20,9 +19,10 @@ de la realizacion de la obra. Ademas de publicar nuestros resultados para el pub
 accesible a personas de a pie sobre esta problematica.
 
 A continuacion se revisaran y detallaran las metricas que hemos detectado, nuestra metodologia y la fuente
-de nuestros recursos extraidos de el conjunto de datos del gobierno de chile.
+de nuestros recursos extraidos de el conjunto de datos del gobierno de chile. Para procesar datos para
+el proyecto se utiliza ELT y se detallara nuestra metodologia, Ademas de contar con un analisis exploratorio
+de datos (EDA) que sera donde se concretaran nuestra respuesta a las incogintas planteadas.
 
----
 ## Desarrollo
 
 ### ELT
@@ -39,16 +39,16 @@ cargaban los datos a procesar, a continuacion se aplicaba la transformacion de d
 su uso proximo y se removian datos que fueran completamente iguales. Ademas para el conjunto de datos de las sociedades
 se aplico este misma metodologia pero antes se concatenaron todos las sociedades de los distintos años.
 
+
 ### EDA
 
-En esta parte del proyecto se trataron de responder las preguntas con los datos ya trabajados. 
+En esta parte del proyecto se trataron de responder las preguntas con los datos ya trabajados. En
+primera instancia para hemos detectado que en general hubo un
 
-***
 ## Conclusion
 
----
 ## Fuente Datasets
-[Datos del gobierno de chile](https://datos.gob.cl)
+[Fuente prinpcipal conjunto de datos publicos del gobierno de chile](https://datos.gob.cl)
 
 1. [Dataset Contratos de obra publica](https://datos.gob.cl/dataset/contratos-de-obra-publica-st-31)
 
