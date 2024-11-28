@@ -1,10 +1,14 @@
-### Introduccion
-En chile a dia las obras publicas son una parte escencial del pais, ya que estan financiadas por la
+# Estudio de Proyectos de Construcción publica en Chile (2018-2023): Un Análisis Integral
+***
+## Introduccion
+
+En toda nacion el manejo las obras publicas son una parte escencial del pais, ya que estan financiadas por la
 misma gente y se utilizan por ejemplo: reparar, mejorar o mejorar infrastructura en el pais; asi mismo
 con los sistemas de transporte como carreteras, puertos, entre otros.
 
-Sin embargo, existe una problematica frecuente con respecto al tiempo y presupuesto estimado por cada
-obra, ya que generalmente se suelen atrasar las obras de construccion y se rebasa el presupuesto estimado.
+Esto no es una excepcion en Chile, sin embargo, existe una problematica frecuente con respecto al tiempo 
+y presupuesto estimado por cada obra, ya que generalmente surgen problemas al llevar a cabo estos proyectos
+tan longebos y esto deriva en 
 
 En nuestro proyecto a traves de los datos publicos del gobierno trataremos de responder a las siguentes
 preguntas ¿Cual es el procentaje de atraso de las obras publicas? ¿Que tipo de obras tarda mas en realizarse?
@@ -16,10 +20,45 @@ de la realizacion de la obra. Ademas de publicar nuestros resultados para el pub
 accesible a personas de a pie sobre esta problematica.
 
 A continuacion se revisaran y detallaran las metricas que hemos detectado, nuestra metodologia y la fuente
-de nuestros recursos.
+de nuestros recursos extraidos de el conjunto de datos del gobierno de chile.
 
-### Desarrollo
+---
+## Desarrollo
 
-### Metodologia
+### ELT
 
-### Bibliografia
+Para el desarrollo de la extraccion de datos como es mencionado anterior mente se han extraido de los
+dataset publicos del gobierno, pero, decidimos cargar estos datos sin transformarlos previamente a nuestro
+repositorio para luego ser transformados, ya que en nuestro desarrollo se venia benificiado la carga de todos
+los datos del proyecto a traves de GitHub y consideramos que esta posibilidad hace que sea mucho mas transparente
+y replicable la transformacion y exploracion de estos datos. En este proceso se utilizo principalmente la libreria
+de Pandas y su manejo de datos para emplear la transformacion apoyandonos con jupyter notebooks para el manejo de codigo.
+
+Nuestra metodologia utilizando Pandas fue el siguente para cada conjunto de datos. En primer lugar se
+cargaban los datos a procesar, a continuacion se aplicaba la transformacion de datos correspondientes para
+su uso proximo y se removian datos que fueran completamente iguales. Ademas para el conjunto de datos de las sociedades
+se aplico este misma metodologia pero antes se concatenaron todos las sociedades de los distintos años.
+
+### EDA
+
+En esta parte del proyecto se trataron de responder las preguntas con los datos ya trabajados. 
+
+***
+## Conclusion
+
+---
+## Fuente Datasets
+[Datos del gobierno de chile](https://datos.gob.cl)
+
+1. [Dataset Contratos de obra publica](https://datos.gob.cl/dataset/contratos-de-obra-publica-st-31)
+
+2. [Dataset proyectos de obra publica](https://datos.gob.cl/dataset/proyectos-de-obra-publica-st-31)
+
+3. [Dataset ofertas de obra publica](https://datos.gob.cl/dataset/ofertas-en-licitaciones-de-obra-publica-st-31)
+
+4. [Dataset pagos de obra publica](https://datos.gob.cl/dataset/pagos-asociados-a-contratos-de-obra-publica-st-31)
+
+5. [Dataset pagos de obra publica](https://datos.gob.cl/dataset/requisitos-de-contratistas-por-contratos-de-obra-publica-st-31)
+
+6. [Dataset sociedades y empresas](https://datos.gob.cl/dataset/registro-de-empresas-y-sociedades)
+***
