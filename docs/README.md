@@ -41,10 +41,13 @@ se aplico este misma metodologia pero antes se concatenaron todos las sociedades
 
 
 ### EDA
+El porcentaje de obras publicas atrasadas desde el primero de enero de 2010 hasta el 26 de junio de 2024
+que se han retrasado por lo menos un mes es de el 33.3% respecto al total
 
-En esta parte del proyecto se trataron de responder las preguntas con los datos ya trabajados. En
-primera instancia para hemos detectado que en general hubo un
 
+![Fuente: Autores](graficoproyectosatrasdosdif1mes.png)
+
+Imagen 1. Fuente: Autores
 ## Conclusion
 
 ## Fuente Datasets
