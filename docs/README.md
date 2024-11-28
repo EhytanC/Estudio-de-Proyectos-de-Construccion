@@ -42,12 +42,16 @@ se aplico este misma metodologia pero antes se concatenaron todos las sociedades
 
 ### EDA
 El porcentaje de obras publicas atrasadas desde el primero de enero de 2010 hasta el 26 de junio de 2024
-que se han retrasado por lo menos un mes es de el 33.3% respecto al total
-
+que se han retrasado por lo menos un mes es de el 33.3% respecto al total y en total fueron 5071 contratos,
+en cambio los contratos que se demoraron menos de un mes en finalizarse son un 66.7% con una cantidad
+10159 contratos. Vease la Imagen 1.
 
 ![Fuente: Autores](graficoproyectosatrasdosdif1mes.png)
 
 Imagen 1. Fuente: Autores
+
+
+
 ## Conclusion
 
 ## Fuente Datasets
