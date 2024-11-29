@@ -49,33 +49,30 @@ en cambio los contratos que se demoraron menos de un mes en finalizarse son un 6
 ![Imagen 1](graficoproyectosatrasdosdif1mes.png)
 Imagen 1. Fuente: Autores.
 
-Por otra parte tomando como base las obras con contratos terminados tienen una duracion en promedio:
-
-Ordenadas de manera desendiente
-
-1. Vialidad, duran aproximadamente un año
-
-2. Aeropuertos, duran aproximadamente 249 dias
-
-3. Obras Portuarias, duran aproximadamente un año
-
-4. SSSR, duran aproximadamente un año
-
-5. Obras hidraulicas, duran aproximadamente un año
-
-6. Arquitectura, duran aproximadamente un año
-
-7. D. G. O. P., duran aproximadamente un año
-
-8. I. N. Hidraulica, No hay informacion
-
-Para determinar estos valores se filtraron todos los valores  
+Por otra parte tomando como base las obras con contratos terminados, en el siguente grafico (vease la Imagen 2) se muestra
+la duracion promedio en dias de cada tipo servicio que realizaban las obras.
 
 ![Imagen 2](GraficoDuracion.png)
 Imagen 2, Fuente: Autores.
 
-A su ves, hemos
+Ademas, exploramos el presupuesto total invertido en las obras publicas como se puede ver en la siguente imagen, hubo una tendencia
+al alza, pero se ve claramente un descenso en el año 2020. 
 
+![Imagen 3](GraficoPresupuesto.png) 
+Imagen 3, Fuente Autores.
+
+![Imagen 4](GraficoPromedioAtraso.png)
+Imagen 4, Fuente: Autores.
+
+Extensiones Futuras
+Este análisis podría ampliarse incluyendo más años o integrando datos relacionados con la calidad de las obras finalizadas para medir el impacto del retraso en la satisfacción pública.
+
+Problemas Éticos
+La transparencia en la gestión de fondos públicos es crítica. Este proyecto destaca la importancia de usar datos abiertos para evaluar la eficiencia del gasto público.
+
+Posibles Fuentes de Error
+Calidad de los datos: Los datos disponibles pueden contener errores o información incompleta.
+Limitaciones en la metodología: No se consideraron factores externos como desastres naturales o cambios políticos que podrían haber influido en los retrasos
 ## Conclusion
 
 ## Fuente Datasets
