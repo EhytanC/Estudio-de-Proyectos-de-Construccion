@@ -1,50 +1,28 @@
 # Estudio de Proyectos de Construcción publica en Chile (2018-2023): Un Análisis Integral
+
 ## Introduccion
 
-En toda nacion el manejo las obras publicas son una parte escencial del pais, ya que estan financiadas por la
-misma gente y se utilizan por ejemplo: reparar, mejorar o mejorar infrastructura en el pais; asi mismo
-con los sistemas de transporte como carreteras, puertos, entre otros.
+En toda nación, el manejo de las obras públicas son una parte esencial del país, ya que están financiadas por la misma gente y se utilizan, por ejemplo, para reparar, mejorar o renovar infraestructura en el país, así como los sistemas de transporte, como carreteras, puertos, entre otros.
 
-Esto no es una excepcion en Chile, sin embargo, existe una problematica frecuente con respecto al tiempo 
-y presupuesto estimado por cada obra, ya que generalmente surgen problemas al llevar a cabo estos proyectos
-tan longebos y esto deriva en 
+Esto no es una excepción en Chile; sin embargo, existe una problemática frecuente con respecto al tiempo y presupuesto estimado por cada obra, ya que generalmente surgen problemas al llevar a cabo estos proyectos tan largos, lo que deriva en situaciones como la posibilidad de extensión de plazos, necesidad de aumentar el presupuesto, etc.
 
-En nuestro proyecto a traves de los datos publicos del gobierno trataremos de responder a las siguentes
-preguntas ¿Cual es el procentaje de atraso de las obras publicas? ¿Que tipo de obras tarda mas en realizarse?
-¿Que tipo de obra es mas cara? ¿Como varia el presupuesto de las obras públicas según el año?
+En nuestro proyecto, a través de los datos públicos del gobierno trataremos de responder a las siguientes preguntas: ¿Cuál es el porcentaje de atraso de las obras públicas? ¿Qué tipo de obras tarda más en realizarse? ¿Qué tipo de obra es más cara? ¿Cómo varía el presupuesto de las obras públicas según el año?
 
-Nuestros principales objetivos son realizar una critica constructiva al sistema de obras publicas, midiendo la eficiencia
-de los contratos realizados con empresas a traves de la diferencia del tiempo estimado y la duracion total
-de la realizacion de la obra. Ademas de publicar nuestros resultados para el publico general y mostrar de una manera
-accesible a personas de a pie sobre esta problematica.
+Nuestros principales objetivos son realizar una crítica constructiva al sistema de obras públicas, midiendo la eficiencia de los contratos realizados con empresas a través de la diferencia entre el tiempo estimado y la duración total de la realización de la obra. Además, publicaremos nuestros resultados de manera accesible, para el público general.
 
-A continuacion se revisaran y detallaran las metricas que hemos detectado, nuestra metodologia y la fuente
-de nuestros recursos extraidos de el conjunto de datos del gobierno de chile. Para procesar datos para
-el proyecto se utiliza ELT y se detallara nuestra metodologia, Ademas de contar con un analisis exploratorio
-de datos (EDA) que sera donde se concretaran nuestra respuesta a las incogintas planteadas.
+A continuación se revisaran y detallarán las métricas que hemos detectado, nuestra metodología y la fuente de nuestros recursos extraídos del conjunto de datos del gobierno de Chile. Para procesar los datos del proyecto, se utilizará ELT y se detallará nuestra metodología, además de contar con un análisis exploratorio de datos (EDA) que será donde se concretarán nuestra respuesta a las incógnitas planteadas.
 
 ## Desarrollo
 
 ### ELT
 
-Para el desarrollo de la extraccion de datos como es mencionado anterior mente se han extraido de los
-dataset publicos del gobierno, pero, decidimos cargar estos datos sin transformarlos previamente a nuestro
-repositorio para luego ser transformados, ya que en nuestro desarrollo se venia benificiado la carga de todos
-los datos del proyecto a traves de GitHub y consideramos que esta posibilidad hace que sea mucho mas transparente
-y replicable la transformacion y exploracion de estos datos. En este proceso se utilizo principalmente la libreria
-de Pandas y su manejo de datos para emplear la transformacion apoyandonos con jupyter notebooks para el manejo de codigo.
+Para el desarrollo de la extracción de datos como se mencionó anteriormente, estos fueron extraídos de los dataset públicos del gobierno. Sin embargo, decidimos cargar los datos sin transformarlos previamente a nuestro repositorio para luego ser transformados, ya que en nuestro desarrollo nos beneficiamos de la carga de todos los datos del proyecto a través de GitHub. Consideramos que esta posibilidad hace que la transformación y exploración de estos datos sea mucho más transparente y replicable. En este proceso se utilizó principalmente la librería de Pandas y su manejo de datos para realizar las transformaciones apoyándonos en Jupyter Notebooks para el manejo del código.
 
-Nuestra metodologia utilizando Pandas fue el siguente para cada conjunto de datos. En primer lugar se
-cargaban los datos a procesar, a continuacion se aplicaba la transformacion de datos correspondientes para
-su uso proximo y se removian datos que fueran completamente iguales. Ademas para el conjunto de datos de las sociedades
-se aplico este misma metodologia pero antes se concatenaron todos las sociedades de los distintos años.
-
+Nuestra metodología utilizando Pandas fue el siguiente para cada conjunto de datos. En primer lugar, se cargaban los datos a procesar; a continuación, se aplicaba la transformación de datos correspondientes para su uso próximo y se removían datos que fueran completamente iguales. Además, para el conjunto de datos de las sociedades se aplicó esta misma metodología, pero antes se concatenaron todas las sociedades de los distintos años.
 
 ### EDA
-El porcentaje de obras publicas atrasadas desde el primero de enero de 2010 hasta el 26 de junio de 2024
-que se han retrasado por lo menos un mes es de el 33.3% respecto al total y en total fueron 5071 contratos,
-en cambio los contratos que se demoraron menos de un mes en finalizarse son un 66.7% con una cantidad
-10159 contratos. Vease la Imagen 1.
+
+El porcentaje de obras públicas atrasadas desde el 1 de enero de 2010 hasta el 26 de junio de 2024, que se han retrasado al menos un mes, es del 33.3% respecto al total, con un total de 5,071 contratos. En cambio, los contratos que se demoraron menos de un mes en finalizarse representan el 66.7% con un total de 10,159 contratos. Véase la Imagen 1.
 
 ![Imagen 1](graficoproyectosatrasdosdif1mes.png)
 Imagen 1. Fuente: Autores.
@@ -64,16 +42,38 @@ Imagen 3, Fuente Autores.
 ![Imagen 4](GraficoPromedioAtraso.png)
 Imagen 4, Fuente: Autores.
 
-Extensiones Futuras
-Este análisis podría ampliarse incluyendo más años o integrando datos relacionados con la calidad de las obras finalizadas para medir el impacto del retraso en la satisfacción pública.
+Extensiones Futuras: Este análisis podría ampliarse incluyendo más años o integrando datos relacionados con la calidad de las obras finalizadas, para medir el impacto del retraso en la satisfacción pública.
 
-Problemas Éticos
-La transparencia en la gestión de fondos públicos es crítica. Este proyecto destaca la importancia de usar datos abiertos para evaluar la eficiencia del gasto público.
+Problemas Éticos: La transparencia en la gestión de fondos públicos es crítica. Este proyecto destaca la importancia de usar datos abiertos para evaluar la eficiencia del gasto público.
 
-Posibles Fuentes de Error
-Calidad de los datos: Los datos disponibles pueden contener errores o información incompleta.
-Limitaciones en la metodología: No se consideraron factores externos como desastres naturales o cambios políticos que podrían haber influido en los retrasos
+Posibles Fuentes de Error: 
+
+•	 Calidad de los datos: Los datos disponibles pueden contener errores o información incompleta. 
+
+•	Limitaciones en la metodología: No se consideraron factores externos, como desastres naturales o cambios políticos, que      podrían haber influido en los retrasos.
+
 ## Conclusion
+
+El análisis de las obras públicas en Chile revela que los retrasos son un problema significativo, con un 33% de los proyectos superando el mes de atraso. A pesar de un aumento general en el presupuesto, las fluctuaciones en los costos y tiempos reflejan la necesidad de mejorar la planificación y ejecución. Utilizar datos abiertos es fundamental para aumentar la transparencia y la rendición de cuentas, y este estudio destaca la importancia de implementar mejoras en la gestión para optimizar recursos y resultados en futuros proyectos.
+
+## Recomendaciones
+
+1. Mejorar la Planificación
+
+    Implementar sistemas de planificación más robustos y flexibles para minimizar los riesgos de atrasos y sobrecostos.
+
+2. Promover la Competitividad
+
+    Fomentar la participación de más empresas en el mercado de contratos públicos para aumentar la competencia y la eficiencia
+
+3. Fortalecer la Gestión
+
+    Capacitar a los equipos de gestión de proyectos para mejorar sus habilidades y conocimientos en la planificación, ejecución y control de obras públicas.
+    
+4. Transparencia y Acceso a la Información
+
+    Garantizar la transparencia en la adjudicación de contratos y el acceso público a la información sobre los proyectos de obras públicas.
+    
 
 ## Fuente Datasets
 [Fuente prinpcipal conjunto de datos publicos del gobierno de chile](https://datos.gob.cl)
